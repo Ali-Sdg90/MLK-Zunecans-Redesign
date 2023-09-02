@@ -1,5 +1,191 @@
+@import "fonts";
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "IRANYekan", sans-serif;
+    overflow: hidden;
+}
+
+.page-container {
+    margin-top: 90px;
+    margin-left: 5px;
+    width: 496.5px;
+    height: 600px;
+    border: 1px solid red;
+    background-color: rgb(239, 245, 251);
+}
+
+.ad-container {
+    margin: 5px;
+    position: relative;
+    border: solid 1px #dde4ea;
+    outline: solid 1px #dde4ea;
+    outline-offset: 0px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 3px 0 10px;
+}
+
+.ad-categories {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+
+    div {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 18px;
+        color: black;
+        padding: 5px 9px 6px 9px;
+        color: white;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .ad-categories-sell {
+        background-color: #1ca8d3;
+        border-radius: 0 12px 0 0;
+    }
+
+    .ad-categories-type {
+        background-color: #ef3e4a;
+        border-radius: 0 0 0 10px;
+    }
+}
+
+.time-section {
+    color: #9dabb6;
+    padding: 0 0 0 18px;
+    font-size: 17.2px;
+    text-align: left;
+
+    div {
+        // border: 1px solid red;
+        display: inline-block;
+    }
+}
+
+.info-section {
+    background-color: #eff5fa;
+    margin: 16px 18px;
+    border-radius: 12px;
+
+    .info-header {
+        // border: 1px solid blue;
+        padding: 8px 15px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            display: inline-block;
+        }
+
+        .ad-tags {
+            // border: 1px solid red;
+            display: inline-flex;
+            justify-content: left;
+            gap: 9px;
+
+            .header-tag {
+                border-radius: 6px;
+                color: white;
+                padding: 0 28px 0 9px;
+                letter-spacing: 0.4px;
+            }
+
+            .given-icon {
+                background: url("../imgs/Ehiashode.svg") no-repeat, #283946;
+                background-size: 22px;
+                background-position: 93%;
+            }
+
+            .handy-icon {
+                background: url("../imgs/Damedasti.svg") no-repeat, #283946;
+                background-size: 22px;
+                background-position: 93%;
+            }
+        }
+
+        .radar-id {
+            // border: 1px solid red;
+            color: #506474;
+            letter-spacing: 0.2px;
+        }
+    }
+
+    .title-section {
+        // border: 1px solid red;
+        font-family: "IRANYekan-Bold";
+        font-size: 17px;
+        color: #283946;
+        margin: 7px 15px;
+        padding-right: 32px;
+        background: url("../imgs/Camera.svg") no-repeat;
+        background-position: 100%;
+        background-size: 25px;
+        letter-spacing: 0.1px;
+    }
+
+    .facilities-section {
+        // border: 1px solid blue;
+        font-size: 12.5px;
+        color: #a4b1bb;
+        margin: 14px 14px 12px 14px;
+        letter-spacing: 0.1px;
+        display: flex;
+        flex-direction: row;
+
+        .facilities-tags {
+            display: flex;
+            flex-direction: row;
+            gap: 13.4px;
+            margin-right: 15px;
+            // border: 1px solid red;
+
+            .facilities-tag {
+                display: inline-block;
+                // border: 1px solid red;
+                width: 22.5px;
+                height: 22.5px;
+            }
+
+            .facilities-tag-parking {
+                background: url("../imgs/Parking.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-storge {
+                background: url("../imgs/Storage.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-balcone {
+                background: url("../imgs/Balcone.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-elevator {
+                background: url("../imgs/Elevator.svg") center/cover no-repeat;
+            }
+        }
+    }
+
+    .details-txt {
+        color: #506474;
+        font-size: 14.9px;
+        margin: 0 14px;
+    }
 }
