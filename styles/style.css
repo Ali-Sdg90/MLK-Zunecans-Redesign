@@ -84,7 +84,7 @@ body {
   margin-left: 5px;
   width: 496.5px;
   height: 600px;
-  border: 1px solid red;
+  border: 1px solid black;
   background-color: rgb(239, 245, 251);
 }
 
@@ -139,7 +139,7 @@ body {
 
 .info-section {
   background-color: #eff5fa;
-  margin: 16px 18px;
+  margin: 16px 18px 13px;
   border-radius: 12px;
 }
 .info-section .info-header {
@@ -175,6 +175,9 @@ body {
 .info-section .info-header .radar-id {
   color: #506474;
   letter-spacing: 0.2px;
+}
+.info-section .info-header .radar-id .radar-id-number {
+  letter-spacing: 0.8px;
 }
 .info-section .title-section {
   font-family: "IRANYekan-Bold";
@@ -222,4 +225,108 @@ body {
   color: #506474;
   font-size: 14.9px;
   margin: 0 14px;
+}
+.info-section .more-details {
+  border: 1px solid #a4b1bb;
+  background: url("../imgs/Discription.svg") no-repeat, #e7ffee;
+  background-position: 97.5%;
+  background-size: 22px;
+  display: inline-block;
+  color: #01c73a;
+  font-size: 14px;
+  margin: 7.8px 14px;
+  padding: 0 28px 0 8px;
+  border-radius: 6px;
+  line-height: 23px;
+  letter-spacing: 0.4px;
+}
+.info-section .price-section {
+  border-top: 2px solid #dde4ea;
+  margin: 6px 0 8px 0;
+  padding: 12px 15px 14px;
+  font-size: 17.5px;
+  color: #283946;
+  letter-spacing: -0.05px;
+}
+.info-section .price-section div {
+  display: inline-block;
+}
+.info-section .price-section .price-per-meter {
+  font-size: 14.8px;
+  color: #506474;
+}
+
+.hashtags-section {
+  font-size: 14.8px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 0 20px 20px;
+  font-family: "IRANYekan";
+  color: #a4b1bb;
+}
+
+.ad-btns {
+  border-top: 2px solid #dde4ea;
+  padding: 17px 13px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 14.5px;
+  letter-spacing: 0.15px;
+  font-family: "IRANYekan-Bold";
+}
+.ad-btns div {
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 181.5px;
+  height: 36px;
+}
+.ad-btns .save-ad-btn {
+  border: 2px solid #283946;
+  color: #283946;
+}
+.ad-btns .more-details-btn {
+  border: 2px solid #01c73a;
+  color: #01c73a;
+}
+.ad-btns .more-btn {
+  width: 67.9px;
+  background: url("../imgs/ThreeDots.svg") center/cover no-repeat, #f1f4f7;
+  background-size: 18px;
+}
+
+.deletion-reminder {
+  color: #ef3e4a;
+  font-family: "IRANYekan-Bold";
+  font-size: 15px;
+  background: url("../imgs/CautionIndicator.svg") no-repeat;
+  background-size: 26px;
+  background-position: 100%;
+  padding: 0 32px;
+  margin: 3px 14px 9.5px;
+  letter-spacing: -0.15px;
+}
+
+.compare-btn {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(216, 216, 216);
+  font-size: 30px;
+  text-decoration: none;
+  border: 2px solid rgba(172, 172, 172, 0.366);
+  padding: 0 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.compare-btn:hover {
+  opacity: 1;
+}
+.compare-btn:active {
+  opacity: 0.85;
 }/*# sourceMappingURL=style.css.map */
