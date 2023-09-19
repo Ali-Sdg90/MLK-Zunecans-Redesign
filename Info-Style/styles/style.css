@@ -1,67 +1,3 @@
-/* IRANYekan - Normal */
-@font-face {
-  font-family: "IRANYekan";
-  src: url("../Fonts/IRANYekan.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Thin */
-@font-face {
-  font-family: "IRANYekan-Thin";
-  src: url("../Fonts/IRANYekan-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Light */
-@font-face {
-  font-family: "IRANYekan-Light";
-  src: url("../Fonts/IRANYekan-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Medium */
-@font-face {
-  font-family: "IRANYekan-Medium";
-  src: url("../Fonts/IRANYekan-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Bold */
-@font-face {
-  font-family: "IRANYekan-Bold";
-  src: url("../Fonts/IRANYekan-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Extra Bold */
-@font-face {
-  font-family: "IRANYekan-ExtraBold";
-  src: url("../Fonts/IRANYekan-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Black */
-@font-face {
-  font-family: "IRANYekan-Black";
-  src: url("../Fonts/IRANYekan-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-/* IRANYekan - Extra Black */
-@font-face {
-  font-family: "IRANYekan-ExtraBlack";
-  src: url("../Fonts/IRANYekan-ExtraBlack.ttf") format("truetype");
-  font-weight: 950;
-  font-style: normal;
-  font-display: swap;
-}
 * {
   padding: 0;
   margin: 0;
@@ -88,6 +24,41 @@ body {
   background-color: rgb(239, 245, 251);
 }
 
+.compare-btn {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(216, 216, 216);
+  font-size: 30px;
+  text-decoration: none;
+  border: 2px solid rgba(172, 172, 172, 0.366);
+  padding: 0 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+.compare-btn:hover {
+  opacity: 1;
+}
+.compare-btn:active {
+  opacity: 0.85;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("../Fonts/IRANYekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANYekan-Bold";
+  src: url("../Fonts/IRANYekan-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 .ad-container {
   margin: 5px;
   position: relative;
@@ -276,13 +247,23 @@ body {
   letter-spacing: 0.15px;
   font-family: "IRANYekan-Bold";
 }
-.ad-btns div {
+.ad-btns a {
   border-radius: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 181.5px;
   height: 36px;
+  cursor: pointer;
+  transition: transform 0.15s;
+  text-decoration: none;
+}
+.ad-btns a:hover {
+  transform: scale(1.008);
+}
+.ad-btns a:active {
+  transform: scale(1);
+  opacity: 0.8;
 }
 .ad-btns .save-ad-btn {
   border: 2px solid #283946;

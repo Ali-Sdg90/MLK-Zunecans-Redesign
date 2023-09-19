@@ -1,0 +1,293 @@
+@import "extra";
+
+@font-face {
+    font-family: "IRANYekan";
+    src: url("../Fonts/IRANYekan.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IRANYekan-Bold";
+    src: url("../Fonts/IRANYekan-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.ad-container {
+    margin: 5px;
+    position: relative;
+    border: solid 1px #dde4ea;
+    outline: solid 1px #dde4ea;
+    outline-offset: 0px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 3px 0 10px;
+}
+
+.ad-categories {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+
+    div {
+        font-size: 14px;
+        font-style: normal;
+        line-height: 18px;
+        color: black;
+        padding: 5px 9px 6px 9px;
+        color: white;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+
+    .ad-categories-sell {
+        background-color: #1ca8d3;
+        border-radius: 0 12px 0 0;
+    }
+
+    .ad-categories-type {
+        background-color: #ef3e4a;
+        border-radius: 0 0 0 10px;
+    }
+}
+
+.time-section {
+    color: #9dabb6;
+    padding: 0 0 0 18px;
+    font-size: 17.2px;
+    text-align: left;
+
+    div {
+        // border: 1px solid red;
+        display: inline-block;
+    }
+}
+
+.info-section {
+    background-color: #eff5fa;
+    margin: 16px 18px 13px;
+    border-radius: 12px;
+
+    .info-header {
+        // border: 1px solid blue;
+        padding: 8px 15px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            display: inline-block;
+        }
+
+        .ad-tags {
+            // border: 1px solid red;
+            display: inline-flex;
+            justify-content: left;
+            gap: 9px;
+
+            .header-tag {
+                border-radius: 6px;
+                color: white;
+                padding: 0 28px 0 9px;
+                letter-spacing: 0.4px;
+            }
+
+            .given-icon {
+                background: url("../imgs/Ehiashode.svg") no-repeat, #283946;
+                background-size: 22px;
+                background-position: 93%;
+            }
+
+            .handy-icon {
+                background: url("../imgs/Damedasti.svg") no-repeat, #283946;
+                background-size: 22px;
+                background-position: 93%;
+            }
+        }
+
+        .radar-id {
+            // border: 1px solid red;
+            color: #506474;
+            letter-spacing: 0.2px;
+
+            .radar-id-number {
+                letter-spacing: 0.8px;
+            }
+        }
+    }
+
+    .title-section {
+        // border: 1px solid red;
+        font-family: "IRANYekan-Bold";
+        font-size: 17px;
+        color: #283946;
+        margin: 7px 15px;
+        padding-right: 32px;
+        background: url("../imgs/Camera.svg") no-repeat;
+        background-position: 100%;
+        background-size: 25px;
+        letter-spacing: 0.1px;
+    }
+
+    .facilities-section {
+        // border: 1px solid blue;
+        font-size: 12.5px;
+        color: #a4b1bb;
+        margin: 14px 14px 12px 14px;
+        letter-spacing: 0.1px;
+        display: flex;
+        flex-direction: row;
+
+        .facilities-tags {
+            display: flex;
+            flex-direction: row;
+            gap: 13.4px;
+            margin-right: 15px;
+            // border: 1px solid red;
+
+            .facilities-tag {
+                display: inline-block;
+                // border: 1px solid red;
+                width: 22.5px;
+                height: 22.5px;
+            }
+
+            .facilities-tag-parking {
+                background: url("../imgs/Parking.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-storge {
+                background: url("../imgs/Storage.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-balcone {
+                background: url("../imgs/Balcone.svg") center/cover no-repeat;
+            }
+
+            .facilities-tag-elevator {
+                background: url("../imgs/Elevator.svg") center/cover no-repeat;
+            }
+        }
+    }
+
+    .details-txt {
+        color: #506474;
+        font-size: 14.9px;
+        margin: 0 14px;
+    }
+
+    .more-details {
+        border: 1px solid #a4b1bb;
+        // background: #E7FFEE;
+        background: url("../imgs/Discription.svg") no-repeat, #e7ffee;
+        background-position: 97.5%;
+        background-size: 22px;
+        display: inline-block;
+        color: #01c73a;
+        font-size: 14px;
+        margin: 7.8px 14px;
+        padding: 0 28px 0 8px;
+        border-radius: 6px;
+        line-height: 23px;
+        letter-spacing: 0.4px;
+    }
+
+    .price-section {
+        border-top: 2px solid #dde4ea;
+        margin: 6px 0 8px 0;
+        padding: 12px 15px 14px;
+        font-size: 17.5px;
+        color: #283946;
+        letter-spacing: -0.05px;
+
+        div {
+            display: inline-block;
+            // border: 1px solid red;
+        }
+
+        .price-per-meter {
+            font-size: 14.8px;
+            color: #506474;
+            // letter-spacing: -0.3px;
+        }
+    }
+}
+
+.hashtags-section {
+    // border: 1px solid red;
+    font-size: 14.8px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0 20px 20px;
+    font-family: "IRANYekan";
+    color: #a4b1bb;
+}
+
+.ad-btns {
+    border-top: 2px solid #dde4ea;
+    padding: 17px 13px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 14.5px;
+    letter-spacing: 0.15px;
+    font-family: "IRANYekan-Bold";
+
+    a {
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 181.5px;
+        height: 36px;
+        cursor: pointer;
+        transition: transform 0.15s;
+        text-decoration: none;
+
+        &:hover {
+            transform: scale(1.008);
+        }
+        &:active {
+            transform: scale(1);
+            opacity: 0.8;
+        }
+    }
+
+    .save-ad-btn {
+        border: 2px solid #283946;
+        color: #283946;
+        // padding: 4px 13px;
+    }
+
+    .more-details-btn {
+        border: 2px solid #01c73a;
+        color: #01c73a;
+    }
+
+    .more-btn {
+        width: 67.9px;
+        background: url("../imgs/ThreeDots.svg") center/cover no-repeat, #f1f4f7;
+        background-size: 18px;
+    }
+}
+
+.deletion-reminder {
+    color: #ef3e4a;
+    // border: 1px solid red;
+    font-family: "IRANYekan-Bold";
+    font-size: 15px;
+    background: url("../imgs/CautionIndicator.svg") no-repeat;
+    background-size: 26px;
+    background-position: 100%;
+    padding: 0 32px;
+    margin: 3px 14px 9.5px;
+    letter-spacing: -0.15px;
+}
