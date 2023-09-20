@@ -16,14 +16,14 @@
     font-display: swap;
 }
 
-.ad-container {
-    margin: 5px;
-    position: relative;
-    border: solid 1px #dde4ea;
-    outline: solid 1px #dde4ea;
-    outline-offset: 0px;
-    max-width: 500px;
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 3px 0 10px;
+.page-container {
+    position: absolute;
+    top: 0;
+    top: 50px;
+    left: 515px;
+    width: 500px;
+    height: 657px;
+    background-color: red;
+    opacity: 0.5;
+    z-index: 10;
 }
