@@ -22,7 +22,7 @@
     top: 50px;
     left: 515px;
     width: 500px;
-    height: 657px;
+    // height: 657px;
     background-color: white;
     z-index: 10;
     border-radius: 25px 25px 0 0;
@@ -308,7 +308,186 @@
     }
 }
 
-// .info-details {
-//     .details-header {
-//     }
-// }
+.info-details {
+    margin: 20px 1px;
+
+    .details-header {
+        color: #506474;
+        font-family: "IRANYekan-Bold";
+        font-size: 16.5px;
+    }
+
+    .details-text {
+        padding-top: 7px;
+        color: #283946;
+        font-size: 19px;
+    }
+}
+
+.info-mlk-details {
+    border: 2px solid #01c73a;
+    margin: -6px 0 0 1px;
+    background-color: #e7ffee;
+    border-radius: 13px;
+    padding: 7px 12px;
+    color: #283946;
+
+    .details-mlk-header {
+        color: #506474;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        font-size: 19.5px;
+        gap: 5px;
+    }
+
+    .name-section {
+        margin-top: 3px;
+    }
+
+    .address-section {
+        letter-spacing: -0.2px;
+    }
+
+    .description-section {
+        letter-spacing: -0.1px;
+    }
+}
+
+.phone-external-link {
+    // border: 1px solid red;
+    margin: 16px 0 0 2px;
+    background: url("../imgs/Call.svg") no-repeat;
+    background-position: 99%;
+    background-size: 19px;
+    padding: 0 30px 0 0;
+    font-family: "IRANYekan-Bold";
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+
+    .phone-section {
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        letter-spacing: -0.1px;
+    }
+
+    .external-link-section {
+        outline: 2px solid #dde4ea;
+        outline-offset: -1px;
+        width: 99px;
+        // height: 100%;
+        background: url("../imgs/DivarLogo.png") no-repeat;
+        background-size: 38px;
+        background-position: 43px 3px;
+        border-radius: 7px;
+        position: relative;
+        height: 34px;
+        cursor: pointer;
+
+        .arrow-icon {
+            // border: 1px solid blue;
+            width: 20px;
+            height: 34px;
+            position: absolute;
+            top: 0;
+            left: 19px;
+            background: url("../imgs/NextArrow.svg") center/cover no-repeat;
+            background-size: 27px;
+        }
+    }
+}
+
+.hashtags-section {
+    // border: 1px solid red;
+    font-size: 16.5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "IRANYekan";
+    color: #a4b1bb;
+    margin: 18px 7px 10px;
+
+    div {
+        margin: 0 0 9px 20.5px;
+    }
+}
+
+.action-section {
+    // border: 1px solid red;
+    // height: 115px;
+    box-shadow: 0px -6px 9px 0px rgba(40, 57, 70, 0.04);
+    padding-bottom: 15px;
+
+    .action-btns {
+        padding: 22px 17px 10px 15px;
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        font-size: 14px;
+        letter-spacing: 0.15px;
+        font-family: "IRANYekan-Bold";
+
+        a {
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 195px;
+            height: 35px;
+            cursor: pointer;
+            transition: transform 0.15s;
+            text-decoration: none;
+
+            &:hover {
+                transform: scale(1.008);
+            }
+            &:active {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+
+        .save-ad-btn {
+            border: 2px solid #283946;
+            color: #283946;
+            // padding: 4px 13px;
+        }
+
+        .action-btn {
+            color: #506474;
+            background: url("../imgs/AmaliatFile.svg") no-repeat, #f1f4f7;
+            background-position: 74%;
+            background-size: 17.3px;
+            padding-right: 30px;
+            border: 1px solid white;
+            font-family: "IRANYekan";
+
+        }
+
+        .more-btn {
+            width: 67.9px;
+            background: url("../imgs/ThreeDots.svg") center/cover no-repeat,
+                #f1f4f7;
+            background-size: 18px;
+        }
+    }
+}
+
+.deletion-reminder {
+    color: #ef3e4a;
+    // border: 1px solid red;
+    font-family: "IRANYekan-Bold";
+    font-size: 15px;
+    background: url("../imgs/CautionIndicator.svg") no-repeat;
+    background-size: 26px;
+    background-position: 100%;
+    padding: 0 32px;
+    margin: 3px 16px 9.5px;
+    letter-spacing: -0.4px;
+}
