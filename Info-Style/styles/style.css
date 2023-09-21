@@ -57,7 +57,154 @@ body {
   left: 515px;
   width: 500px;
   height: 657px;
-  background-color: red;
-  opacity: 0.5;
+  background-color: white;
   z-index: 10;
+  border-radius: 25px 25px 0 0;
+}
+
+.info-back {
+  height: 43px;
+  background: url("../imgs/BackArrow.svg") no-repeat;
+  background-position: 459px;
+  background-size: 21px;
+  display: flex;
+  align-items: center;
+  padding-right: 47px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.info-section {
+  padding: 0 17px 0 15px;
+  position: relative;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+}
+.info-header .left-section {
+  display: flex;
+  color: #506474;
+  background-color: #dde4ea;
+  font-size: 12px;
+  gap: 16px;
+  border-radius: 0 0 8px 8px;
+  padding: 3px 11px 3px 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.info-header .left-section .id-text {
+  padding-top: 1.5px;
+}
+.info-header .left-section .id-number {
+  font-family: "IRANYekan-Bold";
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+.info-header .right-section {
+  display: flex;
+  gap: 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.info-header .right-section div {
+  font-size: 14px;
+  font-style: normal;
+  padding: 8px 9px 9px 9px;
+  color: white;
+  letter-spacing: 0.3px;
+  line-height: 10px;
+}
+.info-header .right-section .sell-tag {
+  background-color: #1ca8d3;
+  border-radius: 0 0 8px 0;
+  padding-right: 16px;
+  padding-left: 10px;
+}
+.info-header .right-section .type-tag {
+  background-color: #ef3e4a;
+  border-radius: 0 0 0 8px;
+}
+
+.tag-header {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13.5px;
+}
+.tag-header .right-section {
+  display: inline-flex;
+  justify-content: left;
+  gap: 8px;
+}
+.tag-header .right-section div {
+  border-radius: 5px;
+  color: white;
+  padding: 0 13px 0px 4px;
+  letter-spacing: 0.6px;
+}
+.tag-header .right-section .given-icon {
+  background: url("../imgs/Ehiashode.svg") no-repeat, #283946;
+  background-size: 21px;
+  background-position: 93%;
+}
+.tag-header .right-section .handy-icon {
+  background: url("../imgs/Damedasti.svg") no-repeat, #283946;
+  background-size: 21px;
+  background-position: 93%;
+}
+.tag-header .left-section {
+  color: #506474;
+  letter-spacing: 0.2px;
+  display: flex;
+  font-size: 14px;
+  gap: 2px;
+  position: relative;
+  top: -3px;
+}
+.tag-header .left-section .radar-id-number {
+  letter-spacing: 0.8px;
+}
+
+.info-title {
+  font-family: "IRANYekan-Bold";
+  font-size: 19px;
+  color: #283946;
+  margin: 15px 1px 0;
+  letter-spacing: -0.05px;
+}
+
+.time-section {
+  color: #9dabb6;
+  padding: 0 1px 0 18px;
+  font-size: 16.2px;
+  letter-spacing: 0.2px;
+  line-height: 27px;
+}
+.time-section div {
+  display: inline-block;
+}
+
+.price-section {
+  border-top: 1.8px solid #dde4ea;
+  border-bottom: 1.8px solid #dde4ea;
+  margin: 23.5px 0;
+  padding: 24px 1px 22px;
+  font-size: 17px;
+  color: #283946;
+  letter-spacing: -0.1px;
+}
+.price-section div {
+  display: inline-block;
+}
+.price-section .price-per-meter {
+  font-size: 14.2px;
+  color: #506474;
+  letter-spacing: 0.01px;
+  position: relative;
+  top: -2px;
+  right: -3px;
 }/*# sourceMappingURL=style.css.map */
