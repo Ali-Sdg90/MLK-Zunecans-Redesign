@@ -204,3 +204,111 @@
         right: -3px;
     }
 }
+
+.features-section {
+    // border: 1px solid red;
+
+    .features-title {
+        font-size: 16.6px;
+        color: #506474;
+        font-family: "IRANYekan-Bold";
+    }
+
+    .features-icons {
+        // border: 1px solid green;
+        display: flex;
+        font-size: 14px;
+        margin-top: 7px;
+        height: 30px;
+        gap: 25px;
+
+        & > div {
+            width: 100%;
+            // border: 1px solid blue;
+            letter-spacing: 0.1px;
+        }
+
+        .background-tag {
+            padding: 0 30px;
+        }
+
+        // Not Active
+        color: #a4b1bb;
+
+        .elevator-content {
+            background: url("") no-repeat;
+            background-position: 100%;
+            background-size: 24px;
+        }
+
+        .parking-content {
+            background: url("") no-repeat;
+            background-position: 100%;
+            background-size: 24px;
+        }
+
+        .balcone-content {
+            background: url("../imgs/BalconeNotActive.svg") no-repeat;
+            background-position: 100%;
+            background-size: 24px;
+        }
+
+        .storge-content {
+            background: url("../imgs/StorageNotActive.svg") no-repeat;
+            background-position: 100%;
+            background-size: 24px;
+        }
+
+        .pos-rel {
+            position: relative;
+
+            .tag-line {
+                background-color: #a4b1bb;
+                height: 66px;
+                width: 1.1px;
+                position: absolute;
+                top: -21px;
+                right: 32px;
+                transform: rotate(70deg);
+            }
+        }
+
+        // Active
+        .active-tag {
+            color: #283946;
+
+            .elevator-content {
+                background: url("../imgs/ElevatorActive.svg") no-repeat;
+                background-position: 100%;
+                background-size: 24px;
+            }
+
+            .parking-content {
+                background: url("../imgs/ParkingActive.svg") no-repeat;
+                background-position: 100%;
+                background-size: 24px;
+            }
+
+            .balcone-content {
+                background: url("../imgs/BalconeActive.svg") no-repeat;
+                background-position: 100%;
+                background-size: 24px;
+            }
+
+            .storge-content {
+                background: url("../imgs/StorageActive.svg") no-repeat;
+                background-position: 100%;
+                background-size: 24px;
+            }
+
+            .tag-line {
+                display: none;
+            }
+        }
+    }
+}
+
+// .info-details {
+//     .details-header {
+//     }
+// }

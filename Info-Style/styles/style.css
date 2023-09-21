@@ -207,4 +207,83 @@ body {
   position: relative;
   top: -2px;
   right: -3px;
+}
+
+.features-section .features-title {
+  font-size: 16.6px;
+  color: #506474;
+  font-family: "IRANYekan-Bold";
+}
+.features-section .features-icons {
+  display: flex;
+  font-size: 14px;
+  margin-top: 7px;
+  height: 30px;
+  gap: 25px;
+  color: #a4b1bb;
+}
+.features-section .features-icons > div {
+  width: 100%;
+  letter-spacing: 0.1px;
+}
+.features-section .features-icons .background-tag {
+  padding: 0 30px;
+}
+.features-section .features-icons .elevator-content {
+  background: url("") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .parking-content {
+  background: url("") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .balcone-content {
+  background: url("../imgs/BalconeNotActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .storge-content {
+  background: url("../imgs/StorageNotActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .pos-rel {
+  position: relative;
+}
+.features-section .features-icons .pos-rel .tag-line {
+  background-color: #a4b1bb;
+  height: 66px;
+  width: 1.1px;
+  position: absolute;
+  top: -21px;
+  right: 32px;
+  transform: rotate(70deg);
+}
+.features-section .features-icons .active-tag {
+  color: #283946;
+}
+.features-section .features-icons .active-tag .elevator-content {
+  background: url("../imgs/ElevatorActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .active-tag .parking-content {
+  background: url("../imgs/ParkingActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .active-tag .balcone-content {
+  background: url("../imgs/BalconeActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .active-tag .storge-content {
+  background: url("../imgs/StorageActive.svg") no-repeat;
+  background-position: 100%;
+  background-size: 24px;
+}
+.features-section .features-icons .active-tag .tag-line {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
